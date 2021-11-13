@@ -35,10 +35,7 @@ export default function Home() {
               <h3 className={styles.space}>
                 New Post! on Medium
               </h3>
-              -
-              - SOON!
-              -
-              -
+              <p>Git - Basics: <a href="https://medium.com/@febriaricandraproduction/git-basics-44192b90ab79">Click Here📚</a></p>
             </div>
           </div>
         </div>

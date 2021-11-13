@@ -46,6 +46,10 @@
 .photoProfile img {
   border-radius: 20px;
 }
+.aboutProfile a:hover {
+  text-decoration: underline;
+  color: green;
+}
 .footer {
   display: flex;
   flex-direction: row;
