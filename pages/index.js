@@ -35,7 +35,7 @@ export default function Home() {
               <h3 className={styles.space}>
                 New Post! on Medium
               </h3>
-              <p>Git - Basics: <a href="https://medium.com/@febriaricandraproduction/git-basics-44192b90ab79">Click Here📚</a></p>
+              <p className={styles.list}>Git - Basics: <a href="https://medium.com/@febriaricandraproduction/git-basics-44192b90ab79">Click Here</a></p>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function Home() {
           <a className={styles.navigationFooter} href="#">©2021 febriari</a>
         <div className={styles.footerEnd}>
             <a className={styles.navigationFooter} href="https://medium.com/@febriaricandraproduction">Medium</a>
-            <a className={styles.navigationFooter} href="https://twitter.com/FebriariCandra">Twitter</a> 
+            <a className={styles.navigationFooter} href="https://twitter.com/guritnofe">Twitter</a> 
         </div>       
       </footer>
     </div>

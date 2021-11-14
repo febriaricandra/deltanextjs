@@ -24,6 +24,7 @@
 }
 .photoProfile {
   width: 55%;
+  margin: auto 0;
 }
 .descProfile {
   width: 50%;
@@ -50,6 +51,9 @@
   text-decoration: underline;
   color: green;
 }
+.aboutProfile .list::before {
+  content: "📚 ";
+}
 .footer {
   display: flex;
   flex-direction: row;
@@ -69,6 +73,7 @@
 .footerEnd a:hover {
   text-decoration: underline;
 }
+
 @media screen and (max-width: 650px) {
   .navigationName {
     padding: 0.5rem;
@@ -85,5 +90,12 @@
   .descProfile {
     width: 80%;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .descProfile {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0;
   }
 }
