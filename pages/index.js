@@ -12,9 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
+        <div className={styles.list}>
           <a className={styles.navigationName} href="https://medium.com/@febriaricandraproduction">Medium</a>
           <a className={styles.navigationName} href="https://github.com/febriaricandra">GitHub</a>
           <a className={styles.navigationName} href="#">Hire me!</a>
+        </div>
       </header>
       <main className={styles.main}>
         <div className={styles.mainContainer}>

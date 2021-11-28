@@ -3,11 +3,16 @@
   display: block;
   max-width: 1000px;
   margin: 0 auto;
+  position: relative;
 }
 .header {
   margin: 20px 0;
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 .navigationName {
   padding: 1.2rem;
