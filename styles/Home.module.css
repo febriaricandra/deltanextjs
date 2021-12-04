@@ -96,6 +96,10 @@
     width: 80%;
     margin: 0 auto;
   }
+  .header {
+    height: 40px;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 400px) {
   .descProfile {

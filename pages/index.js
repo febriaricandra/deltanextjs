@@ -38,6 +38,7 @@ export default function Home() {
                 New Post! on Medium
               </h3>
               <p className={styles.list}>Git - Basics: <a href="https://medium.com/@febriaricandraproduction/git-basics-44192b90ab79">Click Here</a></p>
+              <p className={styles.list}>Linux part-1: <a href="https://medium.com/@febriaricandraproduction/linux-basic-commands-for-absolutely-windows-users-part-1-8acbaf390e10">Click Here</a></p>
             </div>
           </div>
         </div>
